@@ -51,7 +51,7 @@ function createTemplate (data) {
     <html>
         <head> 
             <title>
-                {titile}
+                ${titile}
             </title>
             <meta name="vlexport" content="width-device-width, initial-scale=1" />
             <link href="/ui/style.css" rel="stylesheet" />
@@ -63,13 +63,13 @@ function createTemplate (data) {
                 </div>
                 <hr/>
                 <h3>
-                    {heading}
+                    ${heading}
                 </h3>
                 <div> 
-                    {date}
+                    ${date}
                 </div>
                 <div>
-                   {content}
+                   ${content}
                 </div>
             </div>    
         </body>
