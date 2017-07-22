@@ -84,7 +84,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:articleName', function (req, res){//articleName == article-one
-    var articleName =req.params.articleName;
+    var articleName = req.params.articleName;
     res.send(createTemplate(articles[articleName]));//articles(articleName) == {} content object for article one
 });
 app.get('/ui/style.css', function (req, res) {
